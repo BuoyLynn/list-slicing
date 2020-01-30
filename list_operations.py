@@ -174,7 +174,7 @@ def replace_middle(input_list):
     True
 
     """
-
+    input_list[1:-2] = [42, 37]
     pass
 
 
