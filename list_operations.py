@@ -189,7 +189,7 @@ def delete_third_and_seventh(input_list):
     True
 
     """
-
+    input_list[2:8] = []
     pass
 
 
