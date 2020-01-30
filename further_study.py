@@ -83,7 +83,7 @@ def custom_extend(input_list, second_list):
     """
     for item in second_list:
         input_list[-1:] = [input_list[-1], item]
-    pass
+    
 
 
 def custom_insert(input_list, index, value):
@@ -100,8 +100,8 @@ def custom_insert(input_list, index, value):
         True
 
     """
-
-    pass
+    
+    input_list = input_list[:index] + [value] + input_list[index+1:]
 
 
 def custom_remove(input_list, value):
